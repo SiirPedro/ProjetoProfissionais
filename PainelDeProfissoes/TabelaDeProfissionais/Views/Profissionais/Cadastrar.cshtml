@@ -1,0 +1,50 @@
+﻿<form asp-action="Cadastrar" method="post">
+    <div class="form-group">
+        <label for="Nome">Nome do Profissional</label>
+        <input type="text" class="form-control" id="Nome" name="Nome"/>
+    </div>
+
+    <div class="form-group">
+        <label for="Especialidade">Especialidade</label>
+        <select class="form-control" id="Especialidade" name="Especialidade" required>
+            <option value="">Selecione a Especialidade</option>
+            @foreach (var especialidade in ViewBag.Especialidades)
+            {
+                <option value="@especialidade">@especialidade</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="TipoDocumento">Tipo de Documento</label>
+        <input type="text" class="form-control" id="TipoDocumento" name="TipoDocumento" readonly />
+    </div>
+
+    <div class="form-group">
+        <label for="NumeroDocumento">Número do Documento</label>
+        <input type="text" class="form-control" id="NumeroDocumento" name="NumeroDocumento" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+
+
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#Especialidade').change(function () {
+                var especialidade = $(this).val();
+                if (especialidade) {
+                    $.getJSON('@Url.Action("ObterTipoDocumento", "Profissionais")', { especialidade: especialidade }, function (data) {
+                        $('#TipoDocumento').val(data);
+                    });
+                } else {
+                    $('#TipoDocumento').val('');
+                }
+            });
+        });
+    </script>
+}

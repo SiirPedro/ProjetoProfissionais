@@ -1,0 +1,35 @@
+﻿@model TabelaDeProfissionais.Models.Profissional
+
+@{
+    ViewData["Title"] = "Excluir Profissional";
+}
+
+<h2>Excluir Profissional</h2>
+
+<p>Tem certeza que deseja excluir o profissional <strong>@Model.Nome</strong>?</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<div>
+    <p><strong>Nome:</strong> @Model.Nome</p>
+    <p><strong>Especialidade:</strong> @Model.Especialidade</p>
+    <p><strong>Tipo de Documento:</strong> @Model.TipoDocumento</p>
+    <p><strong>Número do Documento:</strong> @Model.NumeroDocumento</p>
+</div>
+
+<form asp-action="DeletarConfirmacao" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <div>
+        <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+        <a href="@Url.Action("Index", "Profissionais")" class="btn btn-secondary" data-dismiss = "alert">Cancelar</a>
+    </div>
+</form>

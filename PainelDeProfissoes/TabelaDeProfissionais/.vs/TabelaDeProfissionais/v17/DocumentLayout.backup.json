@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\views\\profissionais\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:views\\profissionais\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\views\\profissionais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:views\\profissionais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\controllers\\profissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:controllers\\profissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\models\\profissionaisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:models\\profissionaisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\profissionais0.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:profissionais0.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\models\\profissionalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:models\\profissionalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\views\\profissionais\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:views\\profissionais\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\views\\profissionais\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:views\\profissionais\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|c:\\users\\pedro.garcia\\onedrive - certacon\\\u00E1rea de trabalho\\projeto profiss\u00E3o\\paineldeprofissoes\\tabeladeprofissionais\\views\\profissionais\\deletar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{681ABCF9-836A-42A5-9077-A1CE898932D7}|TabelaDeProfissionais.csproj|solutionrelative:views\\profissionais\\deletar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profissionais\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Profissionais\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T17:58:57.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profissionais0.db",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Profissionais0.db",
+              "RelativeDocumentMoniker": "Profissionais0.db",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Profissionais0.db",
+              "RelativeToolTip": "Profissionais0.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMTSURBVDhPRVNLTxNRFP7uTKl90Ae0UFARTAVEjEjwGTRRgpSF7HShJv4AV\u002B78D25duHZljHHnwteGGOtbROITKrYUbZXax3Q67xnPvcQwybk5d\u002BZ83/nOY1ixpMEwLKT7o1gtKNsc140xxno9z9tOFrRtq03XjZqha6uKolRCwVBt8vhe5/bdh7hwbsZj33IbGEonkcs3JglwFcA0WZyIYFkmDF2HTqZpGre8prXuO459/cL5TIHiwPixmq8EXc\u002B36AGDrufCNE0B4mAO5P7/u\u002B1YYAw3L1\u002Bcu8KxEj9Kv4pRzdCjtmNDVVUoDYWsjka9DkVpoNlsEIEG27UhyxK6u3pipFYkFwSy3OZRJk9i4koPaSFxPh9DMLANnYkkJApvqZy4gVJ5nQduEUgUKUnkkjbXcaipBmVtolqtUwk6XmSfovJ3g0hkUP2IRmMcvEVQXFtj5V8/mWnqIGn8FVxqYqulIpudx8DuNFKp7fhLJMViAeFwO/5sNEScYMmvN1ILC\u002B8XtZaakiQZvJGtloalD\u002B8QCAQos4Qmyff7/Rgbm0B3KnVnZurwJRq3IxSUSj9Z364BjE8cwY6dfYjHO/HmdVbIpbFBNzRw4pnMHI4eO4EE9WQ5951DN0uwbdszDd0jRoRCYbx6\u002BQynpzIYGton7olECrOzc\u002Bjt3UGlOTANE8l4aIsg4A84K8tf8fnjErLP5mHRHqwX86jVq6LeoeERWLaFXO4rPn1aQr7ww\u002BtI9IhmbSqg5RgZPYBkdw\u002B\u002BfP6IcHuE5m4gHAwimeyC2lS4SnR0JDAwkMbg4LBbr\u002BUFgY8fmtp0oh1hr1L5jczsWcQpsFqtCqAs\u002B9AeidDoIohEYggGA/St4sTio1sKTk2fVh88uG/Xa1Wk9wxTwyRhtBy0Gkw0sK3NL/xlKvXevbtNxkwO3Rwjf8YPnRzv7u250ZXsmuzf1Y9Ie1TsBAfxsVYqGyisUV9qtVsrK7lrq98WyxwnCA4dm8abF0\u002B4i/0HTyQtx8jQpo/SRscpgP4elOGxhfpv\u002BVGp/NzhcRPHz\u002BDt88f4Bw8ol4Ht69ueAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-25T17:21:36.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Deletar.cshtml",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Deletar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profissionais\\Deletar.cshtml",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Deletar.cshtml",
+              "RelativeToolTip": "Views\\Profissionais\\Deletar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T13:13:59.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profissionais\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Profissionais\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T10:51:02.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T18:18:20.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profissionais\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Cadastrar.cshtml",
+              "RelativeToolTip": "Views\\Profissionais\\Cadastrar.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T18:15:24.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfissionalModel.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Models\\ProfissionalModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProfissionalModel.cs",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Models\\ProfissionalModel.cs",
+              "RelativeToolTip": "Models\\ProfissionalModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:35:07.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:23:16.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfissionaisViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Models\\ProfissionaisViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProfissionaisViewModel.cs",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Models\\ProfissionaisViewModel.cs",
+              "RelativeToolTip": "Models\\ProfissionaisViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:00:41.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfissionaisController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Controllers\\ProfissionaisController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfissionaisController.cs",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Controllers\\ProfissionaisController.cs",
+              "RelativeToolTip": "Controllers\\ProfissionaisController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:44:51.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profissionais\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Views\\Profissionais\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profissionais\\Index.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T15:45:25.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pedro.garcia\\OneDrive - Certacon\\\u00C1rea de Trabalho\\Projeto profiss\u00E3o\\PainelDeProfissoes\\TabelaDeProfissionais\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:44:32.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

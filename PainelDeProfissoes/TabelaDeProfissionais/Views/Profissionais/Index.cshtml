@@ -1,0 +1,130 @@
+﻿@model TabelaDeProfissionais.ViewModels.ProfissionaisViewModel
+
+@{
+    ViewData["Title"] = "Lista de Profissionais";
+}
+
+@if (TempData["EditarMensagem"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["EditarMensagem"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+@if (TempData["CadastroMensagem"] != null)
+{
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        @TempData["CadastroMensagem"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+@if (TempData["DeleteMensagem"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["DeleteMensagem"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<h2>@ViewData["Profissionais"]</h2>
+
+<!-- Filtro -->
+<div class="mb-3">
+    <label for="filtroEspecialidade">Filtrar por Especialidade</label>
+    <select id="filtroEspecialidade" class="form-control">
+        <option value="">TODOS</option>
+        @foreach (var especialidade in Model.Especialidades)
+        {
+            <option value="@especialidade" @(especialidade == Model.EspecialidadeSelecionada ? "selected" : "")>@especialidade</option>
+        }
+    </select>
+</div>
+
+<button class="btn btn-primary mb-3" id="btnFiltrar">Filtrar</button>
+
+<!-- Tabela de Profissionais -->
+<table class="table table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Especialidade</th>
+            <th>Tipo de Documento</th>
+            <th>Número do Documento</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Profissionais.Any())
+        {
+            @foreach (var profissional in Model.Profissionais)
+            {
+                <tr>
+                    <td>@profissional.Id</td>
+                    <td>@profissional.Nome</td>
+                    <td>@profissional.Especialidade</td>
+                    <td>@profissional.TipoDocumento</td>
+                    <td>@profissional.NumeroDocumento</td>
+                    <td>
+                        <a href="@Url.Action("Editar", new { id = profissional.Id })" class="btn btn-dark">Editar</a>
+                        <a href="@Url.Action("Deletar", new { id = profissional.Id })" class="btn btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">Não há registros de profissionais cadastrados.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Cadastrar", "Profissionais")" class="btn btn-success">Cadastrar Novo Profissional</a>
+
+<!-- Paginação -->
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+        @if (Model.PaginaAtual > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("Index", new { especialidade = Model.EspecialidadeSelecionada, page = Model.PaginaAtual - 1 })" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        }
+
+        @for (int i = 1; i <= Model.TotalPagina; i++)
+        {
+            <li class="page-item @(i == Model.PaginaAtual ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { especialidade = Model.EspecialidadeSelecionada, page = i })">@i</a>
+            </li>
+        }
+
+        @if (Model.PaginaAtual < Model.TotalPagina)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("Index", new { especialidade = Model.EspecialidadeSelecionada, page = Model.PaginaAtual + 1 })" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        }
+    </ul>
+</nav>
+
+<script>
+    // Filtrar a lista de profissionais com base na especialidade selecionada
+    document.getElementById('btnFiltrar').onclick = function() {
+        var especialidade = document.getElementById('filtroEspecialidade').value;
+        window.location.href = '@Url.Action("Index", "Profissionais")?especialidade=' + especialidade + '&page=1';
+        };
+</script>
